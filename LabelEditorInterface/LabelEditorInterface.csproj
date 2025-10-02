@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Elements\Barcode.svg" />
+    <None Remove="Assets\Elements\Ellipse.svg" />
+    <None Remove="Assets\Elements\Image.svg" />
+    <None Remove="Assets\Elements\Line.svg" />
+    <None Remove="Assets\Elements\Rectangle.svg" />
+    <None Remove="Assets\Elements\RichTextBox.svg" />
+    <None Remove="Assets\MenuButtons\CloseEnterButton.png" />
+    <None Remove="Assets\MenuButtons\CloseLeaveButton.png" />
+    <None Remove="Assets\MenuButtons\MenuEnterButton.png" />
+    <None Remove="Assets\MenuButtons\MenuLeaveButton.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Elements\Barcode.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\Ellipse.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\Image.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\Line.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\Rectangle.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Elements\RichTextBox.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\MenuButtons\CloseEnterButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\MenuButtons\CloseLeaveButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\MenuButtons\MenuEnterButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\MenuButtons\MenuLeaveButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BarcodeLib.Barcode.Common" Version="7.4.1.2" />
+    <PackageReference Include="SharpVectors" Version="1.8.5" />
+    <PackageReference Include="SharpVectors.Wpf" Version="1.8.5" />
+  </ItemGroup>
+
+</Project>

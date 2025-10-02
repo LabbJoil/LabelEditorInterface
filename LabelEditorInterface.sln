@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelEditorInterface", "LabelEditorInterface\LabelEditorInterface.csproj", "{577BDD9A-2663-4918-8546-CB777E5F2428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintInterfaceComponent", "PrintInterfaceComponent\PrintInterfaceComponent.csproj", "{5B6493B6-2835-4369-BFCD-443C7BCAEDCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{577BDD9A-2663-4918-8546-CB777E5F2428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577BDD9A-2663-4918-8546-CB777E5F2428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577BDD9A-2663-4918-8546-CB777E5F2428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577BDD9A-2663-4918-8546-CB777E5F2428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6493B6-2835-4369-BFCD-443C7BCAEDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6493B6-2835-4369-BFCD-443C7BCAEDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6493B6-2835-4369-BFCD-443C7BCAEDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6493B6-2835-4369-BFCD-443C7BCAEDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC965BD8-421A-4E8E-9F7B-5A69AA93F199}
+	EndGlobalSection
+EndGlobal
